@@ -43,6 +43,9 @@ module.exports = function (grunt) {
 					{ token: "//qrcode.js", file: "./src/qrcode.js" },
 					{ token: "//securerandom.js", file: "./src/securerandom.js" },
 					{ token: "//main.css", file: "./src/main.css" },
+
+					
+
 					{ token: "//version", string: packageObject.version },
 					// cultures
 					{ token: "//cs.js", file: "./src/culture/cs.js" },
@@ -56,6 +59,9 @@ module.exports = function (grunt) {
 					{ token: "//pt-br.js", file: "./src/culture/pt-br.js" },
 					{ token: "//ru.js", file: "./src/culture/ru.js" },
 					{ token: "//zh-cn.js", file: "./src/culture/zh-cn.js" }
+
+					
+
 				]
 			}
 		},
