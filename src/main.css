@@ -4,7 +4,7 @@
 			no-repeat left center; width: 17px; height: 17px; display: inline-block; float: right; }
 a { position: relative; z-index: 20; }
 .right { text-align: right; }
-.walletarea { display: none; border: 2px solid #f6eb19; }
+.walletarea { display: none; border: 2px solid #000000; }
 hr { margin: 20px 0; border-top: 2px dashed #008000; }
 .keyarea { height: 110px; text-align: left; position: relative; padding: 5px; }
 .keyarea .public { float: left; }
@@ -22,11 +22,11 @@ body, html { height: 99%; }
 .question { padding: 10px 15px; text-align: left; cursor: pointer; }
 .question:hover, .expandable:hover { color: #77777A; }
 .answer { padding: 0 15px 10px 25px; text-align: left; display: none; font-size: 80%; }
-.faq { border: 0; border-top: 2px solid #f6eb19; }
+.faq { border: 0; border-top: 2px solid #000000; }
 .button { margin-left: 5px; margin-right: 5px; }
 input[type=checkbox] { position: relative; z-index: 20; }
 
-#wallets { clear: both; }
+#wallets { clear: both; margin-top: 25px;}
 #btcaddress, #btcprivwif, #detailaddress, #detailaddresscomp, #detailprivwif, #detailprivwifcomp { font-family: monospace; font-size: 1.25em; }
 #seedpoolarea { display: none; }
 #seedpooldisplay {  font-family: monospace; font-size: 1em; width: 640px; padding: 15px 5px; word-wrap: break-word; }
@@ -37,8 +37,9 @@ input[type=checkbox] { position: relative; z-index: 20; }
     text-align: left;
     position: relative;
     padding: 5px;
-    border: 2px solid #f6eb19;
-    clear: both; }
+    border: 2px solid #000000;
+    clear: both;
+        margin-top: 25px; }
 #generate span { padding: 5px 5px 0 5px; }
 #generatekeyinput { position: relative; z-index: 20; }
 #keyarea { height: 280px; }
@@ -51,14 +52,14 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #keyarea .public { width: 30%; display: table-cell; }
 #singlearea { font-size: 90%; }
 #singlesecret { position: relative; top: -130px; float: right; right: 200px; color: red; font-weight: bolder; font-size: 200%;  }
-#singleshare { position: relative; top: -110px; float: left; left: 160px; color: #f6eb19; font-weight: bolder; font-size: 200%;  }
-#singlesafety { text-align: left; padding: 5px; border-top: 2px solid #f6eb19; top: -25px; position: relative; }
+#singleshare { position: relative; top: -110px; float: left; left: 160px; color: #3f9400; font-weight: bolder; font-size: 200%;  }
+#singlesafety { text-align: left; padding: 5px; border-top: 2px solid #000000; top: -25px; position: relative; }
 
 #main { position: relative; text-align: center; margin: 0px auto; width: 1008px; }
 #logo { width: 578px; height: 80px; }
 		
 #paperarea { min-height: 120px; display: none; }
-#paperarea .keyarea { border: 2px solid #f6eb19; border-top: 0; }
+#paperarea .keyarea { border: 2px solid #000000; border-top: 0; }
 #paperarea .keyarea.art { display: block; height: auto; border: 0; font-family: Ubuntu, Arial; padding: 0; margin: 0; }
 #paperarea .artwallet .papersvg { width: 486px; height: 261px; border: 0; margin: 0; padding: 0; left: 0; }
 #paperarea .artwallet .qrcode_public { top: 52px; left: 17px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
@@ -125,9 +126,9 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #vanityarea .label { text-decoration: underline; }
 #vanityarea .output { font-family: monospace; font-size: 1.25em; display: block; }
 #vanityarea .notes { text-align: left; font-size: 80%; padding: 0 0 20px 0; }
-#vanitystep1area { display: none; text-align: left; position: relative; padding: 15px; border-bottom: 2px solid #f6eb19; }
+#vanitystep1area { display: none; text-align: left; position: relative; padding: 15px; border-bottom: 2px solid #000000; }
 #vanitystep1label { padding-left: 5px; }
-#vanitystep2area { border-top: 2px solid #f6eb19; display: block; padding: 15px; }
+#vanitystep2area { border-top: 2px solid #000000; display: block; padding: 15px; }
 #vanitystep2inputs { padding: 0 15px 10px 15px; }
 #vanitycalc { margin-top: 5px; }
 
@@ -135,8 +136,8 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #splitarea span { padding: 0; }
 #splitcommands { padding: 10px 15px; text-align: left; }
 #combinecommands { padding: 10px 15px; }
-#splitstep1area { display: none; text-align: left; position: relative; padding: 0; border-bottom: 2px solid #f6eb19; }
-.splitsharerow { border-bottom: 2px solid #f6eb19; padding: 15px; }
+#splitstep1area { display: none; text-align: left; position: relative; padding: 0; border-bottom: 2px solid #000000; }
+.splitsharerow { border-bottom: 2px solid #000000; padding: 15px; }
 .splitsharerow:last-child { border-bottom: 0; }
 #combinelabelprivatekey { text-decoration: underline; }
 #splitarea .output { display: block; font-family: monospace; font-size: 1.25em; }
@@ -158,18 +159,24 @@ input[type=checkbox] { position: relative; z-index: 20; }
 	.menu  
 	{
 	    margin: 0; padding: 0; display: block;
-	    background-color: #f6eb19; /* # 009900 # 53c100 */
+	    background-color: #dedede; /* # 009900 # 53c100 */
+	    box-shadow: 7px 10px 5px -1px rgba(0,0,0,0.5);
+	}
+	.menu-hidden
+	{
+display: none;
 	}
 	.menu .tab 
 	{
 	    position: relative; display: inline-block; border: 0px solid red;
 	    margin: 0; list-style: none; z-index: 110; cursor: pointer; 
 	    top: 1px; padding: 10px 20px; width: 212px; text-align: center;
+	    font-weight: bold;
 	}
 	.menu .tab.selected  
 	{
 	    cursor: default; 
-	    background-color: #FFF; margin: 6px 16px; padding: 4px; border-radius: 5px; 
+	    background-color: #fef000; margin: 6px 16px; padding: 4px; border-radius: 5px; 
 	}
 	.menu .tab:hover  
 	{
@@ -178,7 +185,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 	.menu .tab.selected:hover { color: #000; }
 	
     .pagebreak { height: 50px; }
-	.commands { border-bottom: 2px solid #f6eb19;  padding: 10px 2px; margin-bottom: 0; }
+	.commands { border-bottom: 2px solid #000000;  padding: 10px 2px; margin-bottom: 0; }
 	.commands .row { padding: 0 0; text-align: left; } 
 	.commands .row.extra { padding-top: 6px; }
 	.commands span { padding: 0 10px; }
@@ -205,7 +212,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 	#detailprivkeypassphrase { width: 250px; position: relative; z-index: 20; }
 	#detailcommands .button { position: relative; z-index: 20; }
 	#detailbip38encryptspan { display: none; }
-	.paper .commands { border: 2px solid #f6eb19; }
+	.paper .commands { border: 2px solid #000000; }
 	#bulkstartindex, #paperlimit, #paperlimitperpage { width: 35px; } 
 	#bulklimit { width: 45px; }
 			
@@ -230,7 +237,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 	#main { width: auto; }
 	#singlearea { border: 0; }
 	#singlesafety { border: 0; }
-	#paperarea .keyarea:first-child { border-top: 2px solid #f6eb19; }
+	#paperarea .keyarea:first-child { border-top: 2px solid #000000; }
 	#paperarea .keyarea.art:first-child { border: 0; }
 	.pagebreak { height: 1px; }
 	.paper #logo { display: none; }
@@ -244,10 +251,10 @@ input[type=checkbox] { position: relative; z-index: 20; }
 	.faq { display: none; }
 }
 
-/*---------------------------------------------PAC COIN CUSTOM*/
+/*---------------------------------------------$PAC CUSTOM*/
 #culturemenu{
 		font-size: 35px;
-    	color: #f6eb17;
+    	color: #fef000;
     	font-weight: 900;
 	}
 	#culturemenu a{
@@ -278,46 +285,66 @@ input[type=checkbox] { position: relative; z-index: 20; }
 	}
 	.foot-pac{
 		padding-top: 20px;
-		background-color: #f6eb17;
+		background-color: #fef000;
 		color: #000000;
 		font-size: 12px;
 		font-weight: bold;
 		min-height: 60px;
 	}
 	.btn-pac{
-		color: #000;
-    	background-color: #f6eb16;
-    	    border: none;
-    border-radius: 2px;
-    display: inline-block;
-    height: 36px;
-    line-height: 36px;
-    padding: 0 2rem;
-    text-transform: uppercase;
-    vertical-align: middle;
-    -webkit-tap-highlight-color: 
+		font-weight: bold;
+    	color: #333;
+    	background-color: #fef000;
+    	border: none;
+    	border-radius: 2px;
+        box-shadow: 3px 2px 5px -1px rgba(0,0,0,0.5);
+	    display: inline-block;
+	    height: 36px;
+	    line-height: 36px;
+	    padding: 0 2rem;
+	    text-transform: uppercase;
+	    vertical-align: middle;
+    	-webkit-tap-highlight-color: 
+	}
+	.btn-pac:hover{
+		box-shadow: 1px 1px 20px 5px rgba(0,0,0,0.5);
+
 	}
 	.simple-line hr{
 		color: gray;
 		border-top: 1px;
 	}
-	.container
-	{
+	.container{
 		width: 70%;
-		    margin: 0 auto;
-    max-width: 1280px;
+		margin: 0 auto;
+    	max-width: 1280px;
 	}
 	.container .row {
-    margin-left: -.75rem;
-    margin-right: -.75rem;
-}
-.center-align {
-    text-align: center;
-}
-.col {
-	width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-}
-	/*---------------------------------------------PAC COIN CUSTOM*/}
+    	margin-left: -.75rem;
+    	margin-right: -.75rem;
+	}
+	.center-align {
+    	text-align: center;
+	}
+	.col {
+		width: 100%;
+	    margin-left: auto;
+	    left: auto;
+	    right: auto;
+	}
+	#advanceOptionslbl{
+		font-weight: normal;
+	    font-style: oblique;
+	}
+	.paperInfo{
+		border: 2px solid #000000;
+	    margin-bottom: 20px;
+	}
+	.line{
+		    border-bottom: 0.5px solid #bfbeb1;
+	    width: 55%;
+	    text-align: center;
+	    margin: 0 auto;
+	    padding-top: 8px;
+	}
+/*---------------------------------------------$PAC CUSTOM*/

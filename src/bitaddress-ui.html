@@ -146,17 +146,23 @@
 
 	<div id="busyblock"></div>
 	<div id="main">
-
 		<div id="seedpoolarea"><textarea rows="16" cols="62" id="seedpool"></textarea></div>
 		<div id="testnet"></div>
-		<ul class="menu" id="menu">
+		<ul class="menu" id="menu2">
 			<li class="tab" id="singlewallet" onclick="ninja.tab.select(this);">Single Wallet
 			<li class="tab" id="paperwallet" onclick="ninja.tab.select(this);">Paper Wallet
+		</ul>
+		<ul class=" menu-hidden menu" id="menu">
 			<li class="tab" id="bulkwallet" onclick="ninja.tab.select(this);">Bulk Wallet
 			<li class="tab" id="brainwallet" onclick="ninja.tab.select(this);">Brain Wallet
-			<li class="tab" id="vanitywallet" onclick="ninja.tab.select(this);">Vanity Wallet
+			<li style ="display: none" class="tab" id="vanitywallet" onclick="ninja.tab.select(this);">Vanity Wallet
 			<li class="tab" id="splitwallet" onclick="ninja.tab.select(this);">Split Wallet
 			<li class="tab" id="detailwallet" onclick="ninja.tab.select(this);">Wallet Details
+		</ul>
+
+		<ul class="menu">
+			<div class="line"></div>
+			<li class="tab" id="advanceOptionslbl" onclick="changeToAdvanceMenu();"> Show Advanced Options </li>
 		</ul>
 		
 		<div id="generate">
@@ -209,6 +215,35 @@
 			</div>
 
 			<div id="paperarea">
+				<div class="paperInfo row">
+					<div id="pwaq1" class="faq"> 
+						<div id="pwq1" class="question" onclick="openCloseFaqPW(1);">
+							<span id="pwlabelq1">What is a Paper Wallet?</span>
+							<div id="pwe1" class="more"></div>
+						</div>
+						<div id="pwa1" class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+					</div>
+					<div id="pwfaq2" class="faq"> 
+						<div id="pwq2" class="question" onclick="openCloseFaqPW(2);">
+							<span id="pwlabelq2">How to use your paper wallet</span>
+							<div id="pwe2" class="more"></div>
+						</div>
+						<div id="pwa2" class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+						
+					</div>
+				</div>
 				<div class="commands">
 					<div id="papercommands" class="row">
 						<span><label id="paperlabelhideart" for="paperart">Hide Art?</label> <input type="checkbox" id="paperart" onchange="ninja.wallets.paperwallet.toggleArt(this);" /></span>
@@ -580,6 +615,46 @@
         
         </footer>
 	</div>
+	<script type="text/javascript">
+							function changeToAdvanceMenu()
+					{
+						  var completeMenu = document.getElementById("menu");
+						  var simpleMenu = document.getElementById("menu2");
+
+						    if (completeMenu.style.display === "none") {
+						        completeMenu.style.display = "block";
+						        simpleMenu.style.display = "none";
+						        document.getElementById("advanceOptionslbl").innerHTML = "Show Basic Options";
+						        //changeButtonLabel("");
+						    } else {
+						        completeMenu.style.display = "none";
+						        simpleMenu.style.display = "block";
+						         document.getElementById("advanceOptionslbl").innerHTML = "Show Advanced Options";
+						       // changeButtonLabel("Show Advance Options");
+						    }
+
+					};
+
+					function changeButtonLabel(newName){
+						 	var textnode = document.createTextNode(newName);
+    						var item = document.getElementById("advanceOptionslbl").childNodes[0];
+   							item.replaceChild(textnode, item.childNodes[0]);
+
+					};
+
+						function openCloseFaqPW (faqNum) {
+			// do close
+			if (document.getElementById("pwa" + faqNum).style.display == "block") {
+				document.getElementById("pwa" + faqNum).style.display = "none";
+				document.getElementById("pwe" + faqNum).setAttribute("class", "more");
+			}
+			// do open
+			else {
+				document.getElementById("pwa" + faqNum).style.display = "block";
+				document.getElementById("pwe" + faqNum).setAttribute("class", "less");
+			}
+		}
+	</script>
 
 	<script type="text/javascript">
 //ninja.key.js
