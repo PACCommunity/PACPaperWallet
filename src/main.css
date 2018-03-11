@@ -176,7 +176,7 @@ display: none;
 	.menu .tab.selected  
 	{
 	    cursor: default; 
-	    background-color: #fef000; margin: 6px 16px; padding: 4px; border-radius: 5px; 
+	    background-color: #F4E96C; margin: 6px 16px; padding: 4px; border-radius: 5px; 
 	}
 	.menu .tab:hover  
 	{
@@ -254,7 +254,7 @@ display: none;
 /*---------------------------------------------$PAC CUSTOM*/
 #culturemenu{
 		font-size: 35px;
-    	color: #fef000;
+    	color: #F4E96C;
     	font-weight: 900;
 	}
 	#culturemenu a{
@@ -285,7 +285,7 @@ display: none;
 	}
 	.foot-pac{
 		padding-top: 20px;
-		background-color: #fef000;
+		background-color: #F4E96C;
 		color: #000000;
 		font-size: 12px;
 		font-weight: bold;
@@ -294,7 +294,7 @@ display: none;
 	.btn-pac{
 		font-weight: bold;
     	color: #333;
-    	background-color: #fef000;
+    	background-color: #F4E96C;
     	border: none;
     	border-radius: 2px;
         box-shadow: 3px 2px 5px -1px rgba(0,0,0,0.5);
