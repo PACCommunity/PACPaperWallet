@@ -77,10 +77,10 @@
 		"singletip1": "<b>Una cartera de $PAC</b> es tan simple como un emparejamiento simple de una dirección $PAC con su correspondiente clave privada. Tal cartera ha sido generada para usted en su navegador web y se muestra arriba.", //TODO: please translate
 		"singletip2": "<b>Para proteger esta cartera</b>debe imprimir o guardar la dirección $PAC y la clave privada.  Es importante hacer una copia de seguridad de la clave privada y almacenarla en un lugar seguro.  Este sitio no tiene conocimiento de su clave privada. Si abandona / actualiza el sitio o presiona el botón Generar nueva dirección, se generará una nueva clave privada y no se podrá recuperar la clave privada que se mostró anteriormente. Su clave privada de $ Pac debe mantenerse en secreto. Quien comparte la clave privada tiene acceso para gastar todos los $PAC asociados con esa dirección.  Si imprime su cartera, guárdela en una bolsa con cierre hermético para mantenerla a salvo del agua. Trate una cartera de papel como efectivo.", //TODO: please translate
 		"singletip3": "<b>Agregue fondos </ b> a este monedero instruyendo a otros a enviar $PAC a su dirección de $PAC.", //TODO: please translate
-		"singletip4": "<b>Verifica tu balance</b> introduciendo tu direccion de $PAC en http://usa.pacblockexplorer.com:3002/ ", //TODO: please translate
+		"singletip4": "<b>Verifica tu balance</b> introduciendo tu direccion de $PAC en http://usa.pacblockexplorer.com:3002/ <br><br><b>Uso: </b>", //TODO: please translate
 		"singletip5": "También puede gastar sus fondos descargando uno de los populares clientes de $PAC p2p e importando su clave privada al monedero de cliente p2p. Tenga en cuenta que cuando importe su clave individual a un cliente bitcoin p2p y gaste fondos, su clave se incluirá con otras claves privadas en la cartera del cliente p2p. Cuando realiza una transacción, su cambio se enviará a otra dirección de $PAC dentro del monedero de cliente p2p. A continuación, debe hacer una copia de seguridad del monedero del cliente p2p y mantenerlo a salvo ya que sus $PAC restantes se almacenarán allí. Satoshi aconsejó que nunca se debe eliminar una cartera.", //TODO: please translate
-		"singleshare": "PUBLICA", //TODO: please translate
-		"singlesecret": "SECRETA", //TODO: please translate
+		"singleshare": "PÚBLICA",
+		"singlesecret": "SECRETA",
 
 		// paper wallet html
 		"paperlabelhideart": "Ocultar diseño",
