@@ -88,6 +88,10 @@
 		"paperprint": "印刷",
 		"paperlabelBIPpassphrase": "パスワード",
 		"paperlabelencrypt": "BIP38で暗号化？",
+		"pwlabelq1" : "What is a paper wallet?",
+		//"pwa1" : "Respuesta 1",
+		"pwlabelq2" : "How to use your paper wallet",
+		//"pwa2": "Respuesta 2",
 
 		// bulk wallet html
 		"bulklabelstartindex": "開始番号",

@@ -90,6 +90,10 @@
 		"paperprint": "Drucken",
 		"paperlabelBIPpassphrase": "Passwort:",
 		"paperlabelencrypt": "Mit BIP38 verschl&uuml;sseln?",
+		"pwlabelq1" : "What is a paper wallet?",
+		//"pwa1" : "Respuesta 1",
+		"pwlabelq2" : "How to use your paper wallet",
+		//"pwa2": "Respuesta 2",
 
 		// bulk wallet html
 		"bulklabelstartindex": "Startindex:",
