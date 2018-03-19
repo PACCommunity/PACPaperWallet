@@ -2,26 +2,26 @@
 	translator.translations["it"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "TESTNET EDITION ATTIVATO",
-		"paperlabelbitcoinaddress": "Indirizzo $Pac:",
+		"paperlabelbitcoinaddress": "Indirizzo $PAC:",
 		"paperlabelprivatekey": "Chiave privata:",
 		"paperlabelencryptedkey": "Chiave privata criptata (password richiesta)",
 		"bulkgeneratingaddresses": "Generazione indirizzi... ",
 		"brainalertpassphrasetooshort": "La passphrase inserita è troppo corta.\n\n",
-		"brainalertpassphrasewarning": "Attenzione: La scelta di una passphrase robusta è importante per evitare attacchi brute force in grado di indovinare la tua passphrase e rubare i tuoi $Pac",
+		"brainalertpassphrasewarning": "Attenzione: La scelta di una passphrase robusta è importante per evitare attacchi brute force in grado di indovinare la tua passphrase e rubare i tuoi $PAC",
 		"brainalertpassphrasedoesnotmatch": "La passphrase non combacia con quella data per la conferma.",
 		"detailalertnotvalidprivatekey": "Il testo inserito non rappresenta una Chiave Privata valida",
-		"detailconfirmsha256": "Il testo inserito non rappresenta una Chiave privata valida!\n\nVorresti usare il testo inserito come passphrase e creare da questa un hash SHA256 e generare così una Chiave Privata?\n\nAvvertenza: La scelta di una passphrase robusta è importante per evitare che attacchi di tipo \"brute force\" vadano a segno indovinando il testo segreto e di conseguenza far perdere i $Pac.",
+		"detailconfirmsha256": "Il testo inserito non rappresenta una Chiave privata valida!\n\nVorresti usare il testo inserito come passphrase e creare da questa un hash SHA256 e generare così una Chiave Privata?\n\nAvvertenza: La scelta di una passphrase robusta è importante per evitare che attacchi di tipo \"brute force\" vadano a segno indovinando il testo segreto e di conseguenza far perdere i $PAC.",
 		"bip38alertincorrectpassphrase": "Passphrase non corretta per questa chiave privata criptata.",
 		"bip38alertpassphraserequired": "Passphrase richiesta per chiave BIP38",
 		"vanityinvalidinputcouldnotcombinekeys": "Dati inseriti non validi. Le chiavi non possono essere combinate.",
 		"vanityalertinvalidinputpublickeysmatch": "Dati inseriti non validi. Entrambe le chiavi pubbliche combaciano. Devi inserire due chiavi differenti.",
-		"vanityalertinvalidinputcannotmultiple": "Dati inseriti non validi. Impossibile moltiplicare due chiavi pubbliche. Seleziona 'Aggiungi' per inserire due chiavi pubbliche ed ottenere l'indirizzo $Pac.",
+		"vanityalertinvalidinputcannotmultiple": "Dati inseriti non validi. Impossibile moltiplicare due chiavi pubbliche. Seleziona 'Aggiungi' per inserire due chiavi pubbliche ed ottenere l'indirizzo $PAC.",
 		"vanityprivatekeyonlyavailable": "Non disponibile quando vengono combinate due chiavi private",
 		"vanityalertinvalidinputprivatekeysmatch": "Dati inseriti non validi. Entrambe le chiavi private combaciano. Devi inserire due chiavi differenti.",
 
 		// header and menu html
-		"tagline": "Open Source JavaScript Client-Side $Pac Wallet Generator",
-		"generatelabelbitcoinaddress": "Generazione Indirizzo $Pac...",
+		"tagline": "Open Source JavaScript Client-Side $PAC Wallet Generator",
+		"generatelabelbitcoinaddress": "Generazione Indirizzo $PAC...",
 		"generatelabelmovemouse": "MUOVI il tuo mouse per contribuire alla generazione dei numeri casuali...",
 		"generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
 		"singlewallet": "Singolo portafoglio",
@@ -65,20 +65,20 @@
 		"statuslabelprotocolbad2": "download", //TODO: please translate
 		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
 		"statusokprotocolbad": "OK", //TODO: please translate
-		"statuslabelkeypool1": "This is a log of all the $Pac Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
+		"statuslabelkeypool1": "This is a log of all the $PAC Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
 		"statuskeypoolrefresh": "Refresh", //TODO: please translate
 		"statusokkeypool": "OK", //TODO: please translate
 
 		// single wallet html
 		"newaddress": "Genera un Nuovo Indirizzo",
 		"singleprint": "Stampa",
-		"singlelabelbitcoinaddress": "Indirizzo $Pac:",
+		"singlelabelbitcoinaddress": "Indirizzo $PAC:",
 		"singlelabelprivatekey": "Chiave privata (Wallet Import Format):",
-		"singletip1": "<b>Un portafogli bitcoin</b> è composto semplicemente da una coppia di valori: l'indirizzo e la sua chiave privata. Un portafogli è stato appena generato sul tuo browser e mostrato sopra.",
-		"singletip2": "<b>Per mettere in sicurezza questo portafogli</b> devi stampare o quantomeno salvare l'indirizzo bitcoin e la Chiave privata. È molto importante fare una copia di backup della chiave privata e conservarla in un posto sicuro. Questo sito non conosce la tua chiave privata. Se hai familiarità con PGP, puoi scaricare per intero questa pagina HTML e controllare la sua autentiticità. Puoi confrontare il codice SHA256 della pagina scaricata con il codice firmato dall'autore che trovi nella cronologia delle versioni (in fondo alla pagina). Se abbandoni/aggiorni la pagina web oppure premi il tasto Genera, un nuovo indirizzo sostituirà quello vecchio che non potrà più essere recuperato. La chiave privata dovrebbe essere tenuta segreta, chiunque conosca la chiave privata può avere accesso e spendere i tuoi bitcoin. Se stampi il tuo portafogli conservalo in una busta di plastica sigillata per tenerla al riparo dall'acqua. Tratta quanto stampato alla stregua di una banconota.",
-		"singletip3": "<b>Ricevi fondi</b> su questo portafogli mostrando l'indirizzo bitcoin per il versamento.",
-		"singletip4": "<b>Controlla il saldo</b> visitando blockchain.info o blockexplorer.com cercando il tuo indirizzo bitcoin.",
-		"singletip5": "<b>Spendi i tuoi bitcoin</b> aprendo un account su blockchain.info usando la chiave privata. Puoi anche spendere i tuoi bitcoin scaricando il popolare client p2p ed importando in esso il portafogli. Tieni presente che quando importi una chiave nel client p2p, nel momento in cui spendi le monete, la chiave viene raggruppata insieme alle altre presenti nel programma con i restanti bitcoin. Quando esegui una transazione gli spiccioli verranno invitati verso un altro indirizzo all'interno del tuo portafogli gestito dal client p2p. Quindi dovresti tenere un backup del portafogli contenuto nel client p2p e tenere questo in un posto sicuro fin tanto terrai dei bitcoin lì. Satoshi consiglia di non cancellare mai un portafogli. ",
+		"singletip1": "<b>A $PAC wallet</b> is as simple as a single pairing of a $PAC address with its corresponding $PAC private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+		"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the $PAC address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you leave/refresh the site or press the \"Generate New Address\" button then a new private key will be generated and the previously displayed private key will not be retrievable. Your $PAC private key should be kept a secret. Whomever you share the private key with has access to spend all the $PACs associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
+		"singletip3": "<b>Add funds</b> to this wallet by instructing others to send $PAC to your $PAC address.", //TODO: please translate
+		"singletip4": "Check your balance</b> by going to http://usa.pacblockexplorer.com:3002/ and entering your $PAC address.<br><br><b>Usage: </b>", //TODO: please translate
+		"singletip5": "You can spend your funds by downloading one of the popular $PAC p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a $PAC p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another $PAC address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining $PAC will be stored there.", //TODO: please translate
 		"singleshare": "SHARE", //TODO: please translate
 		"singlesecret": "SECRET", //TODO: please translate
 
@@ -90,6 +90,10 @@
 		"paperprint": "Stampa",
 		"paperlabelBIPpassphrase": "Passphrase:",
 		"paperlabelencrypt": "BIP38 criptato?",
+		"pwlabelq1" : "What is a paper wallet?",
+		//"pwa1" : "Respuesta 1",
+		"pwlabelq2" : "How to use your paper wallet",
+		//"pwa2": "Respuesta 2",
 
 		// bulk wallet html
 		"bulklabelstartindex": "Indice iniziale:",
@@ -99,14 +103,14 @@
 		"bulkprint": "Stampa",
 		"bulklabelcsv": "Valori Separati da virgola:",
 		"bulklabelformat": "Indice,Indirizzo,Chiave Privata (WIF)",
-		"bulklabelq1": "Perché dovrei usare tanti portafogli per accettare $Pac sul mio sito web?",
-		"bulka1": "Il tradizionale approcio per accettare i $Pac è quello di installare il demone ufficiale $Pac (\"bitcoind\"). Molti pacchetti di hosting web non supportano l'installazione di tale demone. Inoltre tenere in esecuzione il demone richiede che la chiave privata del portafogli sia custodita sul server, se questo viene violato tramite hacking puoi perdere tutti i $Pac. Usando portafogli multipli puoi caricare sul server solo l'indirizzo per il versamento e non la chiave privata. Quindi non devi preoccuparti del tuo portafogli nel caso in cui il server venga violato con un attacco di hacking.",
-		"bulklabelq2": "Come utilizzo tutti questi portafogli per accettare $Pac sul mio sito web?",
-		"bulklabela2li1": "Usa la funzione \"Portafogli multipli\" per generare una grande quantità di indirizzi $Pac (10,000+). Copia e incolla la lista generata in formato CSV (campi separati da virgola) su un file, al sicuro nel tuo computer. Fai una copia di backup di questo file e mettilo un posto sicuro.",
-		"bulklabela2li2": "Importa gli indirizzi $Pac in una tabella del database sul tuo web server. (Non importare i portafogli/chiavi private sul web server, altrimenti corri il rischio che rubino i tuoi $Pac con l'hacking. Usa gli indirizzi $Pac così come verranno mostrati ai tuoi clienti.)",
-		"bulklabela2li3": "Fornisci una opzione nel carrello del tuo sito web per pagare in $Pac. Quando il cliente sceglie di pagare in $Pac, gli mostrerai un indirizzo dal tuo database come \"indirizzo di pagamento\" e conserverai questo stesso indirizzo insieme ai dati dell'ordine.",
-		"bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento $Pac\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo $Pac da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.blockexplorer.com/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://blockchain.info/ <br>Dovresti vedere la transazione entro 30 secondi.",
-		"bulklabela2li5": "In questo modo i $Pac transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i $Pac.",
+		"bulklabelq1": "Perché dovrei usare tanti portafogli per accettare $PAC sul mio sito web?",
+		"bulka1": "Il tradizionale approcio per accettare i $PAC è quello di installare il demone ufficiale $PAC (\"bitcoind\"). Molti pacchetti di hosting web non supportano l'installazione di tale demone. Inoltre tenere in esecuzione il demone richiede che la chiave privata del portafogli sia custodita sul server, se questo viene violato tramite hacking puoi perdere tutti i $PAC. Usando portafogli multipli puoi caricare sul server solo l'indirizzo per il versamento e non la chiave privata. Quindi non devi preoccuparti del tuo portafogli nel caso in cui il server venga violato con un attacco di hacking.",
+		"bulklabelq2": "Come utilizzo tutti questi portafogli per accettare $PAC sul mio sito web?",
+		"bulklabela2li1": "Usa la funzione \"Portafogli multipli\" per generare una grande quantità di indirizzi $PAC (10,000+). Copia e incolla la lista generata in formato CSV (campi separati da virgola) su un file, al sicuro nel tuo computer. Fai una copia di backup di questo file e mettilo un posto sicuro.",
+		"bulklabela2li2": "Importa gli indirizzi $PAC in una tabella del database sul tuo web server. (Non importare i portafogli/chiavi private sul web server, altrimenti corri il rischio che rubino i tuoi $PAC con l'hacking. Usa gli indirizzi $PAC così come verranno mostrati ai tuoi clienti.)",
+		"bulklabela2li3": "Fornisci una opzione nel carrello del tuo sito web per pagare in $PAC. Quando il cliente sceglie di pagare in $PAC, gli mostrerai un indirizzo dal tuo database come \"indirizzo di pagamento\" e conserverai questo stesso indirizzo insieme ai dati dell'ordine.",
+		"bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento $PAC\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo $PAC da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.blockexplorer.com/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://blockchain.info/ <br>Dovresti vedere la transazione entro 30 secondi.",
+		"bulklabela2li5": "In questo modo i $PAC transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i $PAC.",
 
 		// brain wallet html
 		"brainlabelenterpassphrase": "Inserisci la Passphrase: ",
@@ -115,7 +119,7 @@
 		"brainlabelconfirm": "Conferma Passphrase: ",
 		"brainview": "Visiona",
 		"brainalgorithm": "Algoritmo: SHA256(passphrase)",
-		"brainlabelbitcoinaddress": "Indirizzo $Pac:",
+		"brainlabelbitcoinaddress": "Indirizzo $PAC:",
 		"brainlabelprivatekey": "Chiave privata (Wallet Import Format):",
 
 		// vanity wallet html
@@ -145,10 +149,10 @@
 		"detailkeyformats": "Key Formats: WIF, WIFC, HEX, B64, B6, MINI, BIP38",
 		"detailview": "Mostra Dettagli",
 		"detailprint": "Stampa",
-		"detaillabelnote1": "La tua Chiave privata $Pac è rappresentata da un numero segreto, unico al mondo, che dovresti conoscere soltanto tu. Può essere codificato in molti formati differenti. Di seguito verrà mostrato l'indirizzo $Pac e la chiave pubblica, con la corrispondente chiave privata, nei più diffusi formati di codifica (WIF, WIFC, HEX, B64).",
-		"detaillabelnote2": "Il client $Pac, dalla versione v0.6, memorizza le chiavi pubbliche in formato compresso. Il programma ora supporta l'importazione e l'esportazione delle chiavi private attraverso importprivkey/dumpprivkey. Il formato con cui viene esportata la chiave privata dipende se l'indirizzo generato è stato creato con il nuovo o vecchio portafogli.",
-		"detaillabelbitcoinaddress": "Indirizzo $Pac",
-		"detaillabelbitcoinaddresscomp": "Indirizzo $Pac compresso",
+		"detaillabelnote1": "La tua Chiave privata $PAC è rappresentata da un numero segreto, unico al mondo, che dovresti conoscere soltanto tu. Può essere codificato in molti formati differenti. Di seguito verrà mostrato l'indirizzo $PAC e la chiave pubblica, con la corrispondente chiave privata, nei più diffusi formati di codifica (WIF, WIFC, HEX, B64).",
+		"detaillabelnote2": "Il client $PAC, dalla versione v0.6, memorizza le chiavi pubbliche in formato compresso. Il programma ora supporta l'importazione e l'esportazione delle chiavi private attraverso importprivkey/dumpprivkey. Il formato con cui viene esportata la chiave privata dipende se l'indirizzo generato è stato creato con il nuovo o vecchio portafogli.",
+		"detaillabelbitcoinaddress": "Indirizzo $PAC",
+		"detaillabelbitcoinaddresscomp": "Indirizzo $PAC compresso",
 		"detaillabelpublickey": "Chiave pubblica (130 caratteri [0-9A-F]):",
 		"detaillabelpublickeycomp": "Chiave pubblica (compressa, 66 caratteri [0-9A-F]):",
 		"detaillabelprivwif": "Chiave privata WIF<br>51 caratteri base58, inizia per a",
@@ -161,6 +165,6 @@
 		"detailbip38decryptbutton": "Decripta BIP38",
 		"detailbip38encryptbutton": "Encrypt BIP38", //TODO: please translate
 		"detaillabelq1": "How do I make a wallet using dice? What is B6?", //TODO: please translate
-		"detaila1": "An important part of creating a $Pac wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a $Pac private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the $Pac address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
+		"detaila1": "An important part of creating a $PAC wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a $PAC private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the $PAC address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
 	};
 })(ninja.translator);

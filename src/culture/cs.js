@@ -2,7 +2,7 @@
 	translator.translations["cs"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "TESTNET aktivován",
-		"paperlabelbitcoinaddress": "$Pac adresa:",
+		"paperlabelbitcoinaddress": "$PAC adresa:",
 		"paperlabelprivatekey": "Soukromý klíč:",
 		"paperlabelencryptedkey": "Šifrovaný soukromý klíč (Vyžadováno heslo)",
 		"bulkgeneratingaddresses": "Generuji adresy... ",
@@ -20,8 +20,8 @@
 		"vanityalertinvalidinputprivatekeysmatch": "Špatný vstup. Soukromý klíč obou položek je shodný. Musíte zadat dva různé klíče.",
 
 		// header and menu html
-		"tagline": "Open Source generátor $Pac peněženky napsaný v JavaScript",
-		"generatelabelbitcoinaddress": "Generuji $Pac adresu",
+		"tagline": "Open Source generátor $PAC peněženky napsaný v JavaScript",
+		"generatelabelbitcoinaddress": "Generuji $PAC adresu",
 		"generatelabelmovemouse": "POHYBUJTE myší pro získání dostatku náhody...",
 		"generatelabelkeypress": "NEBO napište několik náhodných znaků do tohoto pole",
 		"singlewallet": "Jedna peněženka",
@@ -65,20 +65,20 @@
 		"statuslabelprotocolbad2": "download", //TODO: please translate
 		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
 		"statusokprotocolbad": "OK", //TODO: please translate
-		"statuslabelkeypool1": "This is a log of all the $Pac Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
+		"statuslabelkeypool1": "This is a log of all the $PAC Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
 		"statuskeypoolrefresh": "Refresh", //TODO: please translate
 		"statusokkeypool": "OK", //TODO: please translate
 
 		// single wallet html
 		"newaddress": "Vytvořit novou adresu",
 		"singleprint": "Tisk",
-		"singlelabelbitcoinaddress": "$Pac adresa",
+		"singlelabelbitcoinaddress": "$PAC adresa",
 		"singlelabelprivatekey": "Soukromý klíč (WIF &ndash; Formát pro import do peněženky):",
-		"singletip1": "<b>$Pac peněženka</b> je jednoduchý pár $Pac adresy s přidruženým soukromým klíčem. Taková peněženka byla právě vytvořena ve vašem prohlížeči a zobrazena výše.",
-		"singletip2": "<b>Pro zabezpečení této peněženky</b> musíte tuto $Pac adresu a soukromý klíč vytisknout a nebo jinak poznamenat. Je důležité provést zálohu soukromého klíče a jeho uschování na bezpečném místě. Tato webová stránka nemá žádné informace o vašem soukromém klíči. Pokud ovládáte PGP, můžete celou tuto stránku stáhnout v jednom HTML souboru a ověřit její pravost srovnáním SHA256 hashe s podepsaným dokumentem historie verzí. Odkaz naleznete v patičce této stránky. Pokud opustíte či obnovíte tuto stránku nebo kliknete na 'Vytvořit novou adresu' dojde k vygenerování nového soukromého klíče a předtím zobrazený klíč bude ztracen. Váš soukromý klíč musíte uchovat v tajnosti. Každý kdo má tento klíč k dispozici může utratit všechny peníze v této peněžence. Pokud budete peněženku tisknout, uzavřete ji do nepropustného obalu nebo ji zalaminujte. Tím zabráníte jejímu poškození vodou. Chovejte se k této peněžence jako k normálním bankovkám.",
-		"singletip3": "<b>Pro vložení</b> peněz do této peněženky stačí zaslat peníze na $Pac adresu.",
-		"singletip4": "<b>Zkontrolovat zůstatek</b> můžete na webové stránce blockchain.info nebo blockexplorer.com po zadání $Pac adresy.",
-		"singletip5": "<b>Utratit $Pacy</b> můžete pomocí blockchain.info načtením celého zůstatku pomocí soukromého klíče do vašeho účtu. Utratit zůstatek můžete také pomocí jednoho z P2P $Pac klientů naimportováním soukromého klíče. Myslete na to, že importem klíče do klienta se stane součástí jeho peněženky. Pokud převedete někomu peníze, nespotřebovaný zůstatek se zašle na jinou $Pac adresu uvedenou v P2P klienta. Tuto novou adresu musíte vyzálohovat a udržovat v bezpečí. Satoshi doporučuje, že by nikdo nikdy neměl mazat peněženku.",
+		"singletip1": "<b>A $PAC wallet</b> is as simple as a single pairing of a $PAC address with its corresponding $PAC private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+		"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the $PAC address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you leave/refresh the site or press the \"Generate New Address\" button then a new private key will be generated and the previously displayed private key will not be retrievable. Your $PAC private key should be kept a secret. Whomever you share the private key with has access to spend all the $PACs associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
+		"singletip3": "<b>Add funds</b> to this wallet by instructing others to send $PAC to your $PAC address.", //TODO: please translate
+		"singletip4": "Check your balance</b> by going to http://usa.pacblockexplorer.com:3002/ and entering your $PAC address.<br><br><b>Usage: </b>", //TODO: please translate
+		"singletip5": "You can spend your funds by downloading one of the popular $PAC p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a $PAC p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another $PAC address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining $PAC will be stored there.", //TODO: please translate
 		"singleshare": "SDÍLEJTE",
 		"singlesecret": "SOUKROMÉ",
 
@@ -90,6 +90,10 @@
 		"paperprint": "Tisk",
 		"paperlabelBIPpassphrase": "Heslo:",
 		"paperlabelencrypt": "Šifrovat BIP38?",
+		"pwlabelq1" : "What is a paper wallet?",
+		//"pwa1" : "Respuesta 1",
+		"pwlabelq2" : "How to use your paper wallet",
+		//"pwa2": "Respuesta 2",
 
 		// bulk wallet html
 		"bulklabelstartindex": "Počátek:",
@@ -100,12 +104,12 @@
 		"bulklabelcsv": "Čárkou oddělené hodnoty (CSV):",
 		"bulklabelformat": "Index, Adresa, Soukromý klíč (WIF &ndash; Formát pro import do peněženky)",
 		"bulklabelq1": "Proč bych měl používat Hromadnou peněženku pro příjem $Paců na mé stránce?",
-		"bulka1": "Tradiční způsob jak přijímat $Pacy na vaší webové stránce vyžaduje instalaci oficiálního bitcoin klienta (\"bitcoind\"). Mnoho webhostingových společností neumožňuje tuto instalaci provést. Také běh bitcoin démona na webovém serveru znamená, že soukromé klíče jsou uloženy na serveru a mohou být ukradeny. Pokud použijete Hromadnou peněženku, tak stačí na server nahrát pouze veřejnou bitcoin adresu a ne soukromé klíče. Poté se nemusíte bát, že vaše $Pacy budou ukradeny v případě napadení serveru.",
+		"bulka1": "Tradiční způsob jak přijímat $Pacy na vaší webové stránce vyžaduje instalaci oficiálního $PAC klienta (\"paccoind\"). Mnoho webhostingových společností neumožňuje tuto instalaci provést. Také běh $PAC démona na webovém serveru znamená, že soukromé klíče jsou uloženy na serveru a mohou být ukradeny. Pokud použijete Hromadnou peněženku, tak stačí na server nahrát pouze veřejnou $PAC adresu a ne soukromé klíče. Poté se nemusíte bát, že vaše $Pacy budou ukradeny v případě napadení serveru.",
 		"bulklabelq2": "Jakým způsobem mohou přijímat $Pacy na mé stránce pomocí Hromadné peněženky?",
-		"bulklabela2li1": "Předgenerujte si velké množství $Pac adres (10 000+). Okopírujte si CSV seznam do souboru na bezpečné místo ve vašem počítači. Poté jej vyzálohujte na bezpečné místo.",
-		"bulklabela2li2": "Naimportujte $Pac adresy do databáze na vašem webovém serveru. Neimportujte soukromé klíče, abyste zabránili krádeži vašich peněz.",
+		"bulklabela2li1": "Předgenerujte si velké množství $PAC adres (10 000+). Okopírujte si CSV seznam do souboru na bezpečné místo ve vašem počítači. Poté jej vyzálohujte na bezpečné místo.",
+		"bulklabela2li2": "Naimportujte $PAC adresy do databáze na vašem webovém serveru. Neimportujte soukromé klíče, abyste zabránili krádeži vašich peněz.",
 		"bulklabela2li3": "Umožněte na vaší stránce platbu pomocí $Pacu. Stačí vždy zobrazit jednu z vygenerovaných adres a uložit si ji u objednávky.",
-		"bulklabela2li4": "Nyní je již pouze potřeba zařídit notifikace o příchozí transakci. Zadejte do Google \"bitcoin payment notification\" a využijte jednu z existujících služeb. Existuje jich několik a podporují např. Web Services, API, SMS, Email, apod. Notifikaci můžete zpracovat automaticky. Pro ruční kontrolu, zda peníze přišly, stačí použít Block Explorer. Nahraďte SEMPATŘÍADRESA $Pac adresou, kterou chcete zkontrolovat. Potvrzení transkace může trvat od 10 minut do jedné hodiny.<br />http://www.blockexplorer.com/address/SEMPATŘÍADRESA<br /><br />Nepotvrzené tansakce je možné zkontrolovat na: http://blockchain.info/ <br />Většinou se zde zobrazí do 30 sekund.",
+		"bulklabela2li4": "Nyní je již pouze potřeba zařídit notifikace o příchozí transakci. Zadejte do Google \"$PAC payment notification\" a využijte jednu z existujících služeb. Existuje jich několik a podporují např. Web Services, API, SMS, Email, apod. Notifikaci můžete zpracovat automaticky. Pro ruční kontrolu, zda peníze přišly, stačí použít Block Explorer. Nahraďte SEMPATŘÍADRESA $PAC adresou, kterou chcete zkontrolovat. Potvrzení transkace může trvat od 10 minut do jedné hodiny.<br />usa.pacblockexplorer.com:3002/SEMPATŘÍADRESA<br /><br />Nepotvrzené tansakce je možné zkontrolovat na: usa.pacblockexplorer.com:3002 <br />Většinou se zde zobrazí do 30 sekund.",
 		"bulklabela2li5": "$Pacy budou bezpečně převedeny v řetězci bloků. Pro spotřebování stačí kdykoliv naimportovat soubor vygenerovaný v prvním kroku.",
 
 		// brain wallet html
@@ -133,7 +137,7 @@
 		"vanitylabelradioadd": "Sečíst",
 		"vanitylabelradiomultiply": "Násobit",
 		"vanitycalc": "Spočítát peněženku Vanity",
-		"vanitylabelbitcoinaddress": "$Pac adresa Vanity:",
+		"vanitylabelbitcoinaddress": "$PAC adresa Vanity:",
 		"vanitylabelnotesbitcoinaddress": "Výše je vaše nová adresa, která by měla obsahovat požadovaný začátek.",
 		"vanitylabelpublickeyhex": "Veřejný klíč Vanity (HEX):",
 		"vanitylabelnotespublickeyhex": "Výše je veřejný klíč v hexadecimálním formátu.",
@@ -147,8 +151,8 @@
 		"detailprint": "Tisk",
 		"detaillabelnote1": "",
 		"detaillabelnote2": "",
-		"detaillabelbitcoinaddress": "$Pac adresa:",
-		"detaillabelbitcoinaddresscomp": "Komprimovaná bitcoin adresa:",
+		"detaillabelbitcoinaddress": "$PAC adresa:",
+		"detaillabelbitcoinaddresscomp": "Komprimovaná $PAC adresa:",
 		"detaillabelpublickey": "Veřejný klíč (130 znaků [0-9A-F]):",
 		"detaillabelpublickeycomp": "Komprimovaný veřejný klíč (66 znaků [0-9A-F]):",
 		"detaillabelprivwif": "Soukromý klíč WIF  <br />51 znaků v base58, začíná",
@@ -161,6 +165,6 @@
 		"detailbip38decryptbutton": "Dešifrovat",
 		"detailbip38encryptbutton": "Encrypt BIP38", //TODO: please translate
 		"detaillabelq1": "Jak si mohu vytvořit peněženku pomocí hrací kostky? Co je to B6?",
-		"detaila1": "Důležitá součást vytváření $Pac peněženky je jistota, že náhodná čísla použitá pro její tvorbu jsou opravdu náhodná. Fyzická náhoda je lepší než počítačem generovaná pseudonáhoda. Pomocí hrací kostky je možné jednoduše získat fyzicky náhodná čísla. Pro vytvoření soukromého klíče potřebujete pouze šestihrannou kostku, kterou 99x hodíte. Každý tento hod zaznamenejte. Při zapisování převeďte čísla takto: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. Pomocí této techniky zapisujete velké, opravdu náhodné číslo, svůj soukromý klíč v B6 nebo také base 6 formátu. Těchto 99 čísel napište do pole výše a klikněte na Zobrazit detail. Poté se vám zobrazí $Pac adresa přidružená k tomuto soukromému klíči. Soukromý klíč byste si měli zaznamenat také ve WIF formátu, který je široce používán."
+		"detaila1": "Důležitá součást vytváření $PAC peněženky je jistota, že náhodná čísla použitá pro její tvorbu jsou opravdu náhodná. Fyzická náhoda je lepší než počítačem generovaná pseudonáhoda. Pomocí hrací kostky je možné jednoduše získat fyzicky náhodná čísla. Pro vytvoření soukromého klíče potřebujete pouze šestihrannou kostku, kterou 99x hodíte. Každý tento hod zaznamenejte. Při zapisování převeďte čísla takto: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. Pomocí této techniky zapisujete velké, opravdu náhodné číslo, svůj soukromý klíč v B6 nebo také base 6 formátu. Těchto 99 čísel napište do pole výše a klikněte na Zobrazit detail. Poté se vám zobrazí $Pac adresa přidružená k tomuto soukromému klíči. Soukromý klíč byste si měli zaznamenat také ve WIF formátu, který je široce používán."
 	};
 })(ninja.translator);
